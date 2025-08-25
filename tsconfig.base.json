@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@repo/api/*": ["packages/api/src/*"],
+      "@repo/hooks/*": ["packages/hooks/src/*"],
+      "@repo/validations/*": ["packages/validations/src/*"]
+    },
+    "types": ["vite/client"]
+  }
+}
